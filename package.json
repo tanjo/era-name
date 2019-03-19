@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tanjo/nengo.git"
+    "url": "git+https://github.com/tanjo/era-name.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tanjo/nengo/issues"
+    "url": "https://github.com/tanjo/era-name/issues"
   },
-  "homepage": "https://github.com/tanjo/nengo#readme"
+  "homepage": "https://github.com/tanjo/era-name#readme"
 }

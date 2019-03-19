@@ -1,8 +1,8 @@
-const nengo = require('./era-name/duration.json');
+const eraname = require('./era-name/duration.json');
 
 (async () => {
   let words = new Set();
-  nengo.map((nengo) => nengo.name).forEach((name) => {
+  eraname.map((era-name) => era-name.name).forEach((name) => {
     name.split('').forEach((w) => {
       words.add(w);
     });
