@@ -1,0 +1,12 @@
+#result {
+  font-size: 48px;
+}
+
+.result-area {
+  height: 120px;
+}
+
+.loading {
+  margin-top: 40px;
+  height: 120px;
+}
