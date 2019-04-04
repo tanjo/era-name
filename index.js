@@ -16,11 +16,16 @@ window.onload = () => {
       result = `${result}${characters[index]}`;
     }
 
+    if (document.getElementById('result-twitter').firstChild) {
+      document.getElementById('result-twitter').removeChild(document.getElementById('result-twitter').firstChild);
+    }
+
     twttr.widgets.createShareButton(
       '/',
       document.getElementById('result-twitter'),
       {
-        text: `次の元号は${result}です.`
+        text: `次の元号は${result}です.`,
+        url: location.href
       }
     );
 
