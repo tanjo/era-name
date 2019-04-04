@@ -24,8 +24,7 @@ window.onload = () => {
       '/',
       document.getElementById('result-twitter'),
       {
-        text: `次の元号は${result}です.`,
-        url: location.href
+        text: `次の元号は「${result}」です | 元号ガチャ\n${location.href}`
       }
     );
 
