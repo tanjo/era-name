@@ -21,10 +21,10 @@ window.onload = () => {
     }
 
     twttr.widgets.createShareButton(
-      '/',
+      '',
       document.getElementById('result-twitter'),
       {
-        text: `次の元号は「${result}」です | 元号ガチャ\n${location.href}`
+        text: `次の元号は「${result}」です | 元号ガチャ`
       }
     );
 
